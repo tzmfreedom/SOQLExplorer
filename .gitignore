@@ -13,6 +13,7 @@
 .externalNativeBuild
 .cxx
 
+*.aab
 *.apk
 *.ap_
 *.dex
