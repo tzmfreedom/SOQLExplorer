@@ -38,7 +38,7 @@ class RecordListActivity : SalesforceActivity() {
         }
     }
 
-    fun getTitle(record: HashMap<String, String>): String {
+    private fun getTitle(record: HashMap<String, String>): String {
         return if (record.containsKey("Name")) {
             record["Name"]!!
         } else if (record.containsKey("Id")){
